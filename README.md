@@ -23,10 +23,11 @@ Support range query in O(sqrt(n+k)) (n is number of points, k is number of resul
  print(k.query(area))
 ```
 area is a rectangle with a form like this.
-
+<img width="468" alt="screen shot 2016-10-22 at 10 28 49 pm" src="https://cloud.githubusercontent.com/assets/17826527/19619296/1838f442-98a7-11e6-8e23-c2c9ce4c2363.png">
 
 
 
 ## Running time of Kd-Tree.
 
+<img width="470" alt="screen shot 2016-10-22 at 10 33 36 pm" src="https://cloud.githubusercontent.com/assets/17826527/19619316/9c0ba7c4-98a7-11e6-83c2-8d1edf2a95a3.png">
 
