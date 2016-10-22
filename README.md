@@ -13,6 +13,8 @@ Support range query in O(sqrt(n+k)) (n is number of points, k is number of resul
  k = KdTree()
  k.build(point_li)
  #point_li is the list of points
+ 
+ #ex: point_li = [(1,2), (-5,4), (10,10)]
 ```
 
 
