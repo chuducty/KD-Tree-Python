@@ -165,6 +165,7 @@ for line in f:
     num_set.add((int(tmp[0]),int(tmp[1])))
 num_li = list(num_set)
 print('Reading finish')
+print('There are {} points'.format(len(num_li)))
 print('----------')
 
 print('Doing range search by a linear scan.....')
@@ -190,7 +191,7 @@ total_time = float(time.time()-start_time)
 print("Bulding the Kd-Tree: %f seconds" % (total_time))
 print('----------')
 
-print('Doing range search by a linear scan.....')
+print('Doing range search by using Kd-Tree.....')
 start_time = time.time()
 area = (-10000,5000,-10000,10000)
 print('Number of points in the area: ',len(k.query(area)))
