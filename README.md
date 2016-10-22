@@ -2,7 +2,7 @@
 
 
 1) (Optional) Run create_test.py to create inputkd.txt (input files) for testing. <br />
-2) If you don't do step 1, delete all the lines below the VEB class. Those lines are for reading input files to test.
+2) If you don't do step 1, delete all the lines below the KdTree class. Those lines are for reading input files to test.
 
 A Kd-tree (2d) written in python.
 Support range query in O(sqrt(n+k)) (n is number of points, k is number of results)
